@@ -1,0 +1,24 @@
+iam_role_name_for_eks_cluster = "dev_eks_cluster_role"
+eks_cluster_name = "dev_eks_cluster"
+subnet_ids =  ["subnet-0bc8f8eb423f9ff4d","subnet-0cff5c1fe987babc9","subnet-0c11052e07fb65bf1"]
+vpc_id = "	vpc-0f671754283d1d1e8"
+template_name = "dev_eks_cluster_template"
+ami_id   = "ami-0c84934009677b6d5"
+tag_name_for_cluster = "dev_eks_cluster"
+iam_role_name_for_eks_nodes = "dev_eks_cluster_nodes_role"
+eks_node_group_name  = "dev_eks_cluster_node_group"
+instance_type = "m5.xlarge"
+ec2_ssh_key  = "eks-cluster"
+desired_size = 3
+max_size  = 5
+min_size  =  2
+max_unavailable = 2
+region = "us-east-1"
+oidc_role_name = "dev_eks_cluster_oidc_role"
+eks_sa_name = "cluster_autoscaler"
+eks_sa_namespace  = "kube-system"
+secret_key  = "DcbRkEP6fuTTHiFxvmKQ4bgmspoX/jdsAsEDE1Wa"
+access_key = "AKIAYLKE2GN4XQY64R5Q"
+policy-name = "AmazonEKSClusterAutoscalerPolicy"
+aws_lb_target_group_name = "dev-eks-cluster-tg"
+       

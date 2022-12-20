@@ -1,0 +1,1 @@
+policystatus = ${aws iam list-policies --query}
