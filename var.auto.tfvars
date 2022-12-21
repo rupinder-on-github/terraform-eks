@@ -1,7 +1,7 @@
 iam_role_name_for_eks_cluster = "dev_eks_cluster_role"
 eks_cluster_name = "dev_eks_cluster"
 subnet_ids =  ["subnet-0bc8f8eb423f9ff4d","subnet-0cff5c1fe987babc9","subnet-0c11052e07fb65bf1"]
-vpc_id = "	vpc-0f671754283d1d1e8"
+vpc_id = "vpc-0f671754283d1d1e8"
 template_name = "dev_eks_cluster_template"
 ami_id   = "ami-0c84934009677b6d5"
 tag_name_for_cluster = "dev_eks_cluster"
